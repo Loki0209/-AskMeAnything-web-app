@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+pre {
+  /* Set a base font size */
+  font-size: 16px;
+  /* Set a maximum width */
+  max-width: 900px; /* Adjust this value as needed */
+  /* Allow line wrapping for long text */
+  white-space: pre-wrap;
+  /* Add some padding for better readability */
+  padding: 10px;
+  /* Optional: Add a background color or border */
+  /* background-color: #eee; */
+  /* border: 1px solid #ddd; */
+  text-align: left;
+  border: 10px solid black;
+}
+button{
+  margin: 4px;
+  padding: 4px;
+}
+input{
+  margin: 4px;
+  padding: 4px;
+}
